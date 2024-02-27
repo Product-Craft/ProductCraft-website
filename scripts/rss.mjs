@@ -4,25 +4,25 @@ import { Feed } from 'feed';
 
 import allPosts from '../.contentlayer/generated/Post/_index.json' assert { type: 'json' };
 
-const baseUrl = 'https://konstantin.digital';
+const baseUrl = 'https://productcraft.io';
 const author = {
-  name: 'Konstantin Münster',
-  email: 'hey@konstantin.digital',
+  name: 'Binod Aryal',
+  email: 'hello@productcraft.io',
   link: baseUrl,
 };
 
 const date = new Date();
 
 const feed = new Feed({
-  title: 'konstantin.digital',
-  description: 'All about product development and freelancing.',
+  title: 'ProductCraft',
+  description: 'Transforming Ideas into Market Leading Products',
   id: baseUrl,
   link: baseUrl,
   language: 'en',
   image: `${baseUrl}/favicon.ico`,
   favicon: `${baseUrl}/favicon.ico`,
   updated: date,
-  copyright: `All rights reserved ${date.getFullYear()}, Konstantin Münster`,
+  copyright: `All rights reserved ${date.getFullYear()}, ProductCraft`,
   author,
   feedLinks: {
     rss2: `${baseUrl}/rss.xml`,
@@ -32,7 +32,7 @@ const feed = new Feed({
 allPosts
   .sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))
   .forEach(post => {
-    const url = `https://konstantin.digital/blog/${post.slug}`;
+    const url = `https://productcraft/blog/${post.slug}`;
     feed.addItem({
       id: url,
       link: url,

@@ -11,12 +11,12 @@ export const legals = [
 ];
 
 export const socials = [
-  { name: 'Drop me an email', href: 'mailto:hey@konstantin.digital' },
-  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/konstantinmuenster/' },
-  { name: 'Twitter', href: 'https://www.twitter.com/@kmuenster' },
-  { name: 'GitHub', href: 'https://github.com/konstantinmuenster' },
-  { name: 'Medium', href: 'https://medium.com/@konstantinmuenster' },
+  { name: 'Drop me an email', href: 'mailto:hello@productcraft.io' },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/binodaryal/' },
+  { name: 'Twitter', href: 'https://twitter.com/binodaryal21' },
+  { name: 'GitHub', href: 'https://github.com/BinodAryal' },
+  { name: 'Medium', href: 'https://medium.com/@binodaryal' },
 ];
 
 export const FreshEyesAuditSchedulingLink =
-  'https://cal.com/konstantinmuenster/fresh-eyes-audit';
+  'https://cal.com/binod/product-discovery';
