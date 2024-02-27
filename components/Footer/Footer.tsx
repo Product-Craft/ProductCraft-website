@@ -12,12 +12,12 @@ export const Footer = () => {
         <div className="flex flex-col">
           <Logo iconColor="white" textHidden />
           <span className="mt-3 block text-sm text-white">
-            &copy; {year} Konstantin Münster.
+            &copy; {year} Binod Aryal.
           </span>
           <span className="block text-sm text-white">All rights reserved.</span>
-          <span className="mt-5 block text-sm text-white">
+           {/* <span className="mt-5 block text-sm text-white">
             This page visit emitted <CarbonFootprint />.
-          </span>
+          </span> */}
         </div>
         <div className="flex flex-row flex-wrap gap-x-14 gap-y-10 text-sm text-white">
           <div className="flex min-w-[110px] flex-col gap-3 sm:min-w-[160px] lg:min-w-[200px]">
@@ -77,7 +77,7 @@ export const Footer = () => {
     </footer>
   );
 };
-
+{/*
 const carbonFootprint = 0.24;
 const carbonFootprintUrl =
   'https://www.websitecarbon.com/website/konstantin-digital/';
@@ -89,3 +89,4 @@ const CarbonFootprint = () => {
     </a>
   );
 };
+*/}

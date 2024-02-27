@@ -5,7 +5,7 @@ import { VariantProps, tv } from 'tailwind-variants';
 
 import { Button } from '../Button';
 import { Avatar } from '../Avatar';
-import { FreshEyesAuditSchedulingLink } from '@/config/navigation.config';
+import { ProductDiscoveryLink } from '@/config/navigation.config';
 
 const cta = tv({
   base: 'rounded-[20px] px-10 py-10 text-center text-black shadow-sm',
