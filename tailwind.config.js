@@ -18,6 +18,7 @@ module.exports = {
       mint: '#A3E8D3',
       sun: '#F9DF78',
       twitter: '#1D9BF0',
+      blue: '88D2F7',
       black: {
         DEFAULT: '#121212',
         50: '#fafaf9',

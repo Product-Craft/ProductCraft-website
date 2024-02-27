@@ -125,19 +125,19 @@ export const generateMetadata = (props: GenerateMetadataParams): Metadata => {
     twitter: {
       title: post.title,
       description: post.summary,
-      site: '@kmuenster',
+      site: '@binodaryal21',
     },
     alternates: {
-      canonical: `https://konstantin.digital/blog/${post.slug}`,
+      canonical: `https://productcraft/blog/${post.slug}`,
     },
     openGraph: {
       type: 'article',
       title: post.title,
       description: post.summary,
-      url: `https://konstantin.digital/blog/${post.slug}`,
+      url: `https://productcraft/blog/${post.slug}`,
       tags: post.tags,
       publishedTime: post.publishedAt,
-      authors: 'Konstantin Münster',
+      authors: 'Binod Aryal',
     },
   };
 };
