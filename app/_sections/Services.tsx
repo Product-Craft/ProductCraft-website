@@ -44,7 +44,7 @@ export const ServicesSection = () => {
                   </ul>
                   <Button
                     as="a"
-                    href={`${FreshEyesAuditSchedulingLink}?source=${title}`}
+                    href={`${ProductDiscoveryLink}?source=${title}`}
                     size="sm"
                   >
                     Schedule free call
