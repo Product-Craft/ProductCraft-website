@@ -4,7 +4,7 @@ import { Button } from '@/components/Button';
 import { Hero } from '@/components/Hero';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { AvatarBubble } from '@/components/Avatar';
-import { FreshEyesAuditSchedulingLink } from '@/config/navigation.config';
+import { ProductDiscoveryLink } from '@/config/navigation.config';
 
 export const HeroSection = () => {
   return (

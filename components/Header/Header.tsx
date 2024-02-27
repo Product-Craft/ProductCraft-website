@@ -73,8 +73,8 @@ const FixedCallToActionButton: FC<{ className?: string }> = props => {
 
 const CallToActionButton: FC<ComponentProps<'a'>> = props => {
   return (
-    <Button as="a" href="mailto:hey@konstantin.digital" size="sm" {...props}>
-      hey@konstantin.digital
+    <Button as="a" href="mailto:hello@productcraft.io" size="sm" {...props}>
+      hello@productcraft.io
     </Button>
   );
 };
