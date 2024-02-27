@@ -58,7 +58,7 @@ const Post = ({ params }: { params: { slug: string } }) => {
             <div className="flex items-center gap-2">
               <Avatar size={28} />
               <span className="text-sm font-medium opacity-75">
-                Konstantin Münster
+                Binod Aryal
               </span>
             </div>
             <time dateTime={post.publishedAt} className="text-sm opacity-75">

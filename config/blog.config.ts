@@ -2,7 +2,7 @@ import type { Post } from 'contentlayer/generated';
 
 export const CategoryColors: Record<
   NonNullable<Post['category']>,
-  'mint' | 'violet' | 'blue' | 'sun' | 'gray'
+  'mint' | 'violet' | 'blue' | 'sun'
 > = {
   Engineering: 'mint',
   Product: 'violet',
