@@ -1,11 +1,11 @@
 {
-  "name": "konstantin.digital",
+  "name": "productcraft",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Konstantin Münster",
-    "email": "mail@konstantin.digital",
-    "url": "https://konstantin.digital"
+    "name": "Binod Aryal",
+    "email": "binod@productcraft.io",
+    "url": "https://productcraft.io"
   },
   "scripts": {
     "dev": "contentlayer dev & next dev",
