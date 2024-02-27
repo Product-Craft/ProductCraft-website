@@ -9,6 +9,7 @@ const label = tv({
         'bg-[#E9D9FF] text-[#9D68E9] dark:bg-[#1B0040] dark:text-[#AC7EEC]',
       mint: 'bg-[#DAFFF4] text-[#65C8AA] dark:bg-[#003F2C] dark:text-[#77CEB4]',
       sun: 'bg-[#fcf2c8] text-[#d6ab00] dark:bg-[#665200] dark:text-[#FFCD06]',
+      blue: 'bg-[#88d2f7] text-[#1B75BC] dark:bg-[#1B75BC] dark:text-[#88d2f7]',
       gray: 'bg-[#ececec] text-[#777777] dark:bg-[#1A1A1A] dark:text-[#8C8C8C]',
     },
     size: {
