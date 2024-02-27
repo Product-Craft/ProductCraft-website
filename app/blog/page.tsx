@@ -13,7 +13,7 @@ const Blog = () => {
         className="py-16 md:py-20"
         minHeight={false}
         title={HeroTitle}
-        description="Learn with me. I regularly share my learnings on how to build interactive features with a product-first mindset."
+        description="Learn with me. I regularly share my learnings on how to transforming ideas into market leading products."
       />
       <div className="mb-24 flex flex-col-reverse gap-12 md:grid md:grid-cols-[2fr_1fr] md:gap-8 lg:gap-20">
         <BlogPostTimeline />
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   description:
     'I share my learnings on how to build interactive features with a product-first mindset.',
   alternates: {
-    canonical: `https://konstantin.digital/blog`,
+    canonical: `https://productcraft/blog`,
   },
 };
 
