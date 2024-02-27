@@ -30,7 +30,7 @@ const HeroTitle = (
 const HeroActions = (
   <div className="mt-6 flex-col items-center justify-center text-center">
     <Button as="a" href={`${ProductDiscoveryLink}?source=Hero`}>
-      Book Fresh Eyes Audit
+      Product Discovery
     </Button>
     <div className="mb-12 mt-6 flex gap-4 text-sm opacity-50">
       <span className="flex items-center gap-1">

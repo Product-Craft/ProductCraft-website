@@ -55,8 +55,8 @@ export const metadata: Metadata = {
   creator: 'Binod Aryal',
   publisher: 'Binod Aryal',
   title: {
-    template: '%s | Binod Aryal',
-    default: 'Binod Aryal – Product Engineer',
+    template: '%s | ProductCraft',
+    default: 'ProductCraft – Crafting Vision into Reality',
   },
   description:
     'Turn your product’s pain into production-ready features that unlock opportunities. For startups and scale-ups.',
