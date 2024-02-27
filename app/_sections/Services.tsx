@@ -4,7 +4,7 @@ import { Button } from '@/components/Button';
 import { CodeBrackets, Pointer } from '@/components/Illustration';
 import { Growth, PuzzlePiece, SpeedingClock } from '@/components/Icon';
 import { Label } from '@/components/Label';
-import { FreshEyesAuditSchedulingLink } from '@/config/navigation.config';
+import { ProductDiscoveryLink } from '@/config/navigation.config';
 
 export const ServicesSection = () => {
   return (
