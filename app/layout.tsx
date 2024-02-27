@@ -20,15 +20,15 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       suppressHydrationWarning
     >
       <head>
-        <PlausibleAnalytics domain="konstantin.digital" />
+        <PlausibleAnalytics domain="productcraft.io" />
         {/* <meta name="og:image" /> is generated. */}
-        <meta property="og:image:alt" content="Konstantin Münster" />
+        <meta property="og:image:alt" content="Binod Aryal" />
         {/* <meta name="twitter:image" /> is generated. */}
-        <meta property="og:image:alt" content="Konstantin Münster" />
+        <meta property="og:image:alt" content="Binod Aryal" />
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="konstantin.digital – Blog"
+          title="productcraft.io – Blog"
           href="/rss.xml"
         />
       </head>
@@ -50,13 +50,13 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
  */
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://konstantin.digital'),
-  authors: { name: 'Konstantin Münster' },
-  creator: 'Konstantin Münster',
-  publisher: 'Konstantin Münster',
+  metadataBase: new URL('https://productcraft.io'),
+  authors: { name: 'Binod Aryal' },
+  creator: 'Binod Aryal',
+  publisher: 'Binod Aryal',
   title: {
-    template: '%s | Konstantin Münster',
-    default: 'Konstantin Münster – Product Engineer',
+    template: '%s | Binod Aryal',
+    default: 'Binod Aryal – Product Engineer',
   },
   description:
     'Turn your product’s pain into production-ready features that unlock opportunities. For startups and scale-ups.',
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
   ],
   viewport: { width: 'device-width', initialScale: 1 },
   alternates: {
-    canonical: 'https://konstantin.digital',
+    canonical: 'https://productcraft.io',
     types: {
       'application/rss+xml': '/rss.xml',
     },
@@ -79,31 +79,31 @@ export const metadata: Metadata = {
   manifest: '/manifest.json',
   twitter: {
     card: 'summary_large_image',
-    site: '@kmuenster',
-    creator: '@kmuenster',
-    title: 'Konstantin Münster – Product Engineer',
+    site: '@binodaryal21',
+    creator: '@binodaryal21',
+    title: 'Binod Aryal – Product Engineer',
     description:
       'Turn your product’s pain into production-ready features that unlock opportunities. For startups and scale-ups.',
   },
   openGraph: {
     type: 'profile',
-    firstName: 'Konstantin',
-    lastName: 'Münster',
-    username: 'kmuenster',
+    firstName: 'Binod',
+    lastName: 'Aryal',
+    username: 'binod',
     gender: 'he/him',
-    emails: ['hey@konstantin.digital'],
-    url: 'https://konstantin.digital',
-    siteName: 'Konstantin Münster',
-    title: 'Konstantin Münster – Product Engineer',
+    emails: ['hello@productcraft.io'],
+    url: 'https://productcraft.io',
+    siteName: 'ProductCraft',
+    title: 'ProductCraft – Crafting Vision into Reality',
     description:
       'Turn your product’s pain into production-ready features that unlock opportunities. For startups and scale-ups.',
-    countryName: 'Germany',
+    countryName: 'Nepal',
     locale: 'en_US',
   },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: 'Konstantin Münster',
+    title: 'ProductCraft',
   },
   formatDetection: {
     email: false,
