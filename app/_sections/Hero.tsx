@@ -21,7 +21,7 @@ export const HeroSection = () => {
 
 const HeroTitle = (
   <div className="relative">
-    <AvatarBubble className="absolute -right-44 -top-16 hidden lg:block" />
+    {/* <AvatarBubble className="absolute -right-44 -top-16 hidden lg:block" /> */}
     <span className="block text-violet">Writing code,</span>
     <span className="block">thinking product.</span>
   </div>
