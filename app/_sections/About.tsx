@@ -7,7 +7,7 @@ export const AboutSection = () => {
       <div className="px-container mx-auto flex max-w-xl flex-col-reverse items-center gap-8 py-8 md:gap-16 lg:max-w-container lg:flex-row">
         <div>
           <h3 className="font-accent text-3xl font-medium md:text-4xl">
-            Hey, I am Konstantin
+            Hey, I am Binod
           </h3>
           <p className="my-5 text-xl md:text-2xl">
             A freelance product engineer - or to put it simply: a product

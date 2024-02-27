@@ -18,5 +18,5 @@ export const socials = [
   { name: 'Medium', href: 'https://medium.com/@binodaryal' },
 ];
 
-export const FreshEyesAuditSchedulingLink =
+export const ProductDiscoveryLink =
   'https://cal.com/binod/product-discovery';
