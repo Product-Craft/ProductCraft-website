@@ -27,7 +27,7 @@ const Projects = () => {
         className="py-16 md:py-32"
         minHeight={false}
         title={<HeroTitle />}
-        description="A small collection of freelance and open-source projects I worked on. Learn more about how my favorite projects look like."
+        description="A small collection projects I worked on. Learn more about how my favorite projects look like."
         // actions={<HeroActions />}
       />
       <div className="mx-auto mb-24 mt-12 flex max-w-5xl flex-col gap-12">
@@ -93,9 +93,9 @@ const HeroActions = () => {
 
 export const metadata: Metadata = {
   title: 'Case Studies',
-  description: 'A collection of freelance and open-source projects.',
+  description: 'Exploring a range of innovative initiatives and collaborations.',
   alternates: {
-    canonical: `https://konstantin.digital/projects`,
+    canonical: `https://productcraft.io/projects`,
   },
 };
 

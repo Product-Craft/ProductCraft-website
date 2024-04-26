@@ -6,7 +6,7 @@ export const CategoryColors: Record<
 > = {
   Engineering: 'mint',
   Product: 'violet',
-  "Generative AI": "blue",
+  "Generative AI": 'blue',
   Careers: 'sun',
 } as const;
 

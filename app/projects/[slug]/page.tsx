@@ -274,10 +274,10 @@ export const generateMetadata = (props: GenerateMetadataParams): Metadata => {
     twitter: {
       title: project.title,
       description: project.subtitle,
-      site: '@kmuenster',
+      site: '@productcraft',
     },
     alternates: {
-      canonical: `https://konstantin.digital/projects/${project.slug}`,
+      canonical: `https://productcraft.io/projects/${project.slug}`,
     },
   };
 };
